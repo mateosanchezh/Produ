@@ -43,17 +43,4 @@ class User {
     }
 }
 
-// Ejemplo de uso
-const user = new User(1, 'johndoe', 'John Doe', '1234');
-
-// Accediendo a las propiedades
-console.log(user.id);         // 1
-console.log(user.username);   // johndoe
-
-// Modificando las propiedades
-user.id = 2;
-user.username = 'janedoe';
-console.log(user.id);         // 2
-console.log(user.username);   // janedoe
-
 
