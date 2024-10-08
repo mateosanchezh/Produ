@@ -8,27 +8,28 @@ class Product{
         get id(){
             return this._id;
         }
-        set id{
+        set id(value){
             this._id;
         }
+
         get nombre(){
             return this._nombre;
         }
-        set nombre(){
+        set nombre(value){
             this._nombre;
         }
         
         get precio(){
             return this._precio;
         }
-        set precio{
+        set precio(value){
             this._precio;
         }
         
         get descripcion(){
             return this._descripcion;
         }
-        set descripcion{
+        set descripcion(value){
             this._descripcion
         }
         
