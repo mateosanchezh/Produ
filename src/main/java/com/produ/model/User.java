@@ -4,6 +4,16 @@ public class User {
 
 
     // MODELO PARA LOGIN.
+    private int ID;
+
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
+
     private String username;
     private String password;
     private String nombre;
